@@ -1,19 +1,12 @@
-package com.company;
+package net.study.epam.task1;
 
-import java.util.Calendar;
-import java.util.GregorianCalendar;
-import java.util.Scanner;
 
-public class Task_1 {
+public class Task1 {
     public static void main(String[] args) {
         //Task 1;
-        Scanner inputScanner = new Scanner(System.in);
-        System.out.println("Please, input any number: ");
-        int inputNumber = inputScanner.nextInt();
-        int resultCalculateLastDigit = calculateLastDigit(inputNumber);
-        System.out.println("Result is: " + resultCalculateLastDigit);
+
     }
-    private static int calculateLastDigit(int inputNumber) {
+    public static int calculateLastDigit(int inputNumber) {
         int lastDigit = inputNumber % 10;
         int result = 0;
         switch (lastDigit) {
