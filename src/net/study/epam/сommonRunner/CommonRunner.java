@@ -1,4 +1,4 @@
-package net.study.epam.CommonRunner;
+package net.study.epam.сommonRunner;
 
 import net.study.epam.task1.RunnerTask1;
 import net.study.epam.task10.RunnerTask10;
