@@ -5,10 +5,12 @@ public class Task9 {
 
     }
     public static double calculateCircumference(int radius) {
-        return 2 * Math.PI * radius;
+        double circumference = 2 * Math.PI * radius;
+        return circumference;
     }
 
     public static double calculateSquare(int radius) {
-        return Math.PI * Math.pow(radius, 2);
+        double square = Math.PI * Math.pow(radius, 2);
+        return square;
     }
 }

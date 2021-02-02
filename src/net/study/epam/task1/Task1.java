@@ -8,7 +8,7 @@ public class Task1 {
     }
     public static int calculateLastDigit(int inputNumber) {
         int lastDigit = inputNumber % 10;
-        int result = 0;
+        int result;
         switch (lastDigit) {
             case 1:
             case 9:
@@ -32,6 +32,8 @@ public class Task1 {
             case 0:
                 result = 0;
                 break;
+            default:
+                throw new RuntimeException("Something wrong");
         }
         return result;
     }

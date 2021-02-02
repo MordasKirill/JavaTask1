@@ -5,10 +5,12 @@ public class Task6 {
 
     }
     public static int countHours(int seconds) {
-        return seconds / 3600;
+        int hours = seconds / 3600;
+        return hours;
     }
 
     public static int countMinutes(int seconds, int hours) {
-        return (seconds - hours * 3600) / 60;
+        int minutes = (seconds - hours * 3600) / 60;
+        return minutes;
     }
 }
