@@ -1,15 +1,16 @@
-package net.study.epam.сommonRunner;
+package net.epam.study.сommonRunner;
 
-import net.study.epam.task1.RunnerTask1;
-import net.study.epam.task10.RunnerTask10;
-import net.study.epam.task2.RunnerTask2;
-import net.study.epam.task3.RunnerTask3;
-import net.study.epam.task4.RunnerTask4;
-import net.study.epam.task5.RunnerTask5;
-import net.study.epam.task6.RunnerTask6;
-import net.study.epam.task7.RunnerTask7;
-import net.study.epam.task8.RunnerTask8;
-import net.study.epam.task9.RunnerTask9;
+
+import net.epam.study.task1.RunnerTask1;
+import net.epam.study.task10.RunnerTask10;
+import net.epam.study.task2.RunnerTask2;
+import net.epam.study.task3.RunnerTask3;
+import net.epam.study.task4.RunnerTask4;
+import net.epam.study.task5.RunnerTask5;
+import net.epam.study.task6.RunnerTask6;
+import net.epam.study.task7.RunnerTask7;
+import net.epam.study.task8.RunnerTask8;
+import net.epam.study.task9.RunnerTask9;
 
 public class CommonRunner {
     public static void main(String[] args) {

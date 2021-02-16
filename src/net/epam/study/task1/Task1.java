@@ -1,4 +1,4 @@
-package net.study.epam.task1;
+package net.epam.study.task1;
 
 
 public class Task1 {

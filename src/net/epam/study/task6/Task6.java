@@ -1,4 +1,4 @@
-package net.study.epam.task6;
+package net.epam.study.task6;
 
 public class Task6 {
     public static void main(String[] args) {

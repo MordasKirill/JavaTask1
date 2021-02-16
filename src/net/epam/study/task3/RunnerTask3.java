@@ -1,4 +1,4 @@
-package net.study.epam.task3;
+package net.epam.study.task3;
 
 import java.util.Scanner;
 
